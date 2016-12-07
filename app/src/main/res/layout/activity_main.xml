@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction"
+        android:padding="2dp"
+        android:textSize="17sp"
+        android:id="@+id/textView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/edit_text_design"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:minLines="4"
+        android:maxLines="7"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:padding="5dp"
+        android:hint="Message"
+        android:textColorHint="#d3d3d3"
+        android:id="@+id/message"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/send"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

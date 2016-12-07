@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CALC Informer</string>
+    <string name="instruction">Input message:</string>
+</resources>
